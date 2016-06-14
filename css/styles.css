@@ -1160,3 +1160,38 @@ you can use the generic selector below, but it's slower:
 
 .icon-dribbble:before {
   content: "\e063"; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Personal Styling: */
+#landing_moto1 {
+  font-size: 25px;
+}
+
+#landing_moto2 {
+  font-size: 18px;
+}
+
+.logo img {
+  max-width: 160px;
+}
+
+
+
+

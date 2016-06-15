@@ -348,7 +348,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url("../img/hero.jpg") center center;
+  background: url("../img/ypal/landing-back.jpg") center center;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -1164,33 +1164,6 @@ you can use the generic selector below, but it's slower:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Personal Styling: */
-#landing_moto1 {
-  font-size: 25px;
-}
-
-#landing_moto2 {
-  font-size: 18px;
-}
-
-.logo img {
-  max-width: 160px;
-}
 
 
 

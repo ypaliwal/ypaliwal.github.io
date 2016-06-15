@@ -7,12 +7,15 @@
     <meta charset="utf-8">
     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Sedna - A Free HTML5/CSS3 website by Peter Finlan</title>
+    <title>Yash Paliwal | Web Developer</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -22,6 +25,9 @@
     <link rel="stylesheet" href="css/etline-font.css">
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- YP's Styling -->
+    <link rel="stylesheet" type="text/css" href="css/yp_styles/styles.css">
+
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body id="top">
@@ -29,7 +35,7 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <section class="hero">
-        
+        <div id="darken"></div>
         <!-- NAV BAR -->
         <section class="navigation">
             <header>
@@ -38,9 +44,9 @@
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
-                                <li><a href="#features">ABOUT</a></li>
-                                <li><a href="#assets">SERVICES</a></li>
-                                <li><a href="#blog">PORTFOLIO</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#services">SERVICES</a></li>
+                                <li><a href="#portfolio">PORTFOLIO</a></li>
                                 <li><a href="#download">BLOG</a></li>
                             </ul>
                             <ul class="member-actions">
@@ -62,8 +68,8 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
                         <h1>Yash Paliwal</h1>
-                        <p class="intro"><span id="landing_moto1">Web Developer</span><span id="landing_moto2"><em> ...In Training</span></em></p>
-                        <a href="#features" class="btn btn-large btn-margin-right">About Me</a>
+                        <p class="intro"><span id="landing_moto1">Toronto | Junior Web Developer</span></p>
+                        <a href="#about" class="btn btn-large btn-margin-right">About Me</a>
                     </div>
                 </div>
             </div>
@@ -105,89 +111,102 @@
             </div>
         </div>
     </section> -->
+    
 
-
-    <section class="features section-padding" id="features">
+    <!-- ABOUT: A SMALL WRITEUP -->
+    <section class="features section-padding" id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-md-offset-7">
-                    <div class="feature-list">
-                        <h3>Sedna will drive your product forward</h3>
-                        <p>Present your product, start up, or portfolio in a beautifully modern way. Turn your visitors in to clients.</p>
-                        <ul class="features-stack">
-                            <li class="feature-item">
-                                <div class="feature-icon">
-                                    <span data-icon="&#xe03e;" class="icon"></span>
-                                </div>
-                                <div class="feature-content">
-                                    <h5>Universal & Responsive</h5>
-                                    <p>Sedna is universal and will look smashing on any device.</p>
-                                </div>
-                            </li>
-                            <li class="feature-item">
-                                <div class="feature-icon">
-                                    <span data-icon="&#xe040;" class="icon"></span>
-                                </div>
-                                <div class="feature-content">
-                                    <h5>User Centric Design</h5>
-                                    <p>Sedna takes advantage of common design patterns, allowing for a seamless experience for users of all levels.</p>
-                                </div>
-                            </li>
-                            <li class="feature-item">
-                                <div class="feature-icon">
-                                    <span data-icon="&#xe03c;" class="icon"></span>
-                                </div>
-                                <div class="feature-content">
-                                    <h5>Clean reusable code</h5>
-                                    <p>Download and re-use the Sedna open source code for any other project you like.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="row text">
+                <div class="col-sm-10 col-sm-offset-1 text-center">
+                    <h2>ABOUT ME</h2>
+                    <div class="spacing"></div>
+                    <p class="greeting">Hi there!</p>
+                    <div class="spacing"></div>
+                    <p class="greeting-text">I'm Yash and I'm a <a href="https://en.wikipedia.org/wiki/Toronto" target="_blank">Toronto</a> based Junior Web Developer. I work independandly and collaboratively (with other digital/creative professionals) to build beautiful and effective web solutions for clients.</p>
+                    <div class="spacing"></div>
+                    <p class="greeting-text2">I bring my experience in Sales & Marketing with companies like <a href="https://www.teslamotors.com/" target="_blank">Tesla Motors</a>, <a href="https://www.foodora.ca/" target="_blank">Foodora</a>, and <a href="http://www.abb.com/" target="_blank">ABB Inc.</a>, and education in Web Development from <a href="http://www.brainstation.io/" target="_blank">BrainStation</a> to every project I take on.</p>
                 </div>
-                
             </div>
         </div>
-        <div class="device-showcase">
+        <!-- <div class="device-showcase">
             <div class="devices">
                 <div class="ipad-wrap wp1"></div>
                 <div class="iphone-wrap wp2"></div>
             </div>
         </div>
-        <div class="responsive-feature-img"><img src="img/devices.png" alt="responsive devices"></div>
+        <div class="responsive-feature-img"><img src="img/devices.png" alt="responsive devices"></div> -->
     </section>
 
 
-    <section class="features-extra section-padding" id="assets">
+    <!-- SERVICES: What I Can Do -->
+    <section class="features-extra section-padding" id="services">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="feature-list">
-                        <h3>Designed with Sketch!</h3>
-                        <p>Easily change/switch/swap every placeholder inside every image on Sedna with the included Sketch files. You’ll have this template customised to suit your business in no time! </p>
-                        <p>Nam vehicula malesuada lectus, interdum fringilla nibh. Duis aliquam vitae metus a pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum augue quis augue ornare, eget faucibus felis pharetra. Proin condimentum et leo quis fringilla.
-                        </p>
-                        <a href="#" class="btn btn-ghost btn-accent btn-small">What's Sketch?</a>
+            <div class="row text-center">
+                <h2>SERVCIES</h2>
+                <div class="spacing"></div>
+                <p>WEBSITE | SOCIAL MEDIA | SEARCH ENGINE OPTIMIZATION | DESIGN | CONTENT CREATION</p>
+                <div class="spacing-less"></div>
+                <p>I work with a team of independent digital/creative professionals to deliver full web marketing solutions to my clients. Whether it's a simple, one-page <b>website</b>, or an extensive online store, with full branding, audio/visual media production & content creation, we are able to deliver.</p>
+                <div class="spacing"></div>
+                <hr class="style-two">
+                <div class="spacing"></div>
+                <h3>PROCESS</h3>
+                <div style="height: 10px;"></div>
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-md-4">
+                            <div>
+                                <h5>Easily Customised</h5>
+                                <p>Easily customise Sedna to suit your start up, portfolio or product. Take advantage of the layered Sketch file and bring your product to life.</p>
+                            </div>
+                        </div> -->
+                        <div class="col-md-12">
+                            <p>This is the general step-by-step process we follow:</p>
+                            <div class="spacing"></div>
+                        </div>
+
+                        <div class="col-md-4 intro-feature">
+                            <div class="intro-icon">
+                                <span><img class="icon-size" src="./img/ypal/design.png"></span>
+                            </div>
+                            <div class="intro-content">
+                                <h5>Design Strategy</h5>
+                                <!-- <p>We start by learning about your brand & what we're trying convey to the customer. The specs of the project are discussed & an information architecture is laid out.</p> -->
+                                <p>We learn about your brand & what your site should convey. Create a product spec & an information architecture.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 intro-feature">
+                            <div class="intro-icon">
+                                <span><img class="icon-size" src="./img/ypal/dev.png"></span>
+                            </div>
+                            <div class="intro-content">
+                                <h5>Development</h5>
+                                <p>We code out the product & go through visual reviews with you. We iterate the product to perfection (nothing less will do)!</p>
+                                <!-- <p>This is the execution phase, we code out the product and go through reviews with you to iterate it to perfection. Then after some beta testing, we move forward.</p> -->
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 intro-feature">
+                            <div class="intro-icon">
+                                <span><img class="icon-size" src="./img/ypal/going-live.png"></span>
+                            </div>
+                            <div class="intro-content">
+                                <h5>Going Live</h5>
+                                <p>After crossing all the t's & dotting all the i's, we bring you live! At this point, we can also provide Google Optimization, Content Creation, and other services.</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div class="macbook-wrap wp3"></div>
-        <div class="responsive-feature-img"><img src="img/macbook-pro.png" alt="responsive devices"></div>
     </section>
-    <section class="hero-strip section-padding">
-        <div class="container">
-            <div class="col-md-12 text-center">
-                <h2>
-                Customise Sedna with the included <span class="sketch">Sketch <i class="version">3</i></span> file
-                </h2>
-                <p>Change/swap/edit every aspect of Sedna before you hit development with the included Sketch file.</p>
-                <a href="#" class="btn btn-ghost btn-accent btn-large">Download now!</a>
-                <div class="logo-placeholder floating-logo"><img src="img/sketch-logo.png" alt="Sketch Logo"></div>
-            </div>
-        </div>
-    </section>
-    <section class="blog-intro section-padding" id="blog">
+
+    <!-- PORTFOLIO -->
+
+
+    <!-- <section class="blog-intro section-padding" id="blog">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -205,68 +224,70 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="blog text-center">
+    </section> -->
+  
+    <!-- PORTFOLIO -->
+    <section class="blog text-center" id="portfolio">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" >
+                <h1 class="h1-std">PORTFOLIO</h1>
+                <div class="spacing"></div>
                 <div class="col-md-4">
                     <article class="blog-post">
                         <figure>
-                            <a href="img/blog-img-01.jpg" class="single_image">
                                 <div class="blog-img-wrap">
-                                    <div class="overlay">
-                                        <i class="fa fa-search"></i>
-                                    </div>
                                     <img src="img/blog-img-01.jpg" alt="Sedna blog image"/>
                                 </div>
-                            </a>
                             <figcaption>
-                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="See more posts">Product</a></h2>
-                            <p><a href="#" class="blog-post-title">Getting started with Sedna <i class="fa fa-angle-right"></i></a></p>
+                                <p>Getting started with Sedna</p>
                             </figcaption>
                         </figure>
                     </article>
                 </div>
+
                 <div class="col-md-4">
                     <article class="blog-post">
                         <figure>
-                            <a href="img/blog-img-02.jpg" class="single_image">
-                                <div class="blog-img-wrap">
-                                    <div class="overlay">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                    <img src="img/blog-img-02.jpg" alt="Sedna blog image"/>
-                                </div>
-                            </a>
+                            <div class="blog-img-wrap">
+                                <img src="img/blog-img-02.jpg" alt="Sedna blog image"/>
+                            </div>
                             <figcaption>
-                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="See more posts">Technology</a></h2>
-                            <p><a href="#" class="blog-post-title">Why IE8 support is deminishing <i class="fa fa-angle-right"></i></a></p>
+                                <p>Why IE8 support is deminishing</p>
                             </figcaption>
                         </figure>
                     </article>
                 </div>
+
                 <div class="col-md-4">
                     <article class="blog-post">
                         <figure>
-                            <a href="img/blog-img-03.jpg" class="single_image">
-                                <div class="blog-img-wrap">
-                                    <div class="overlay">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                    <img src="img/blog-img-03.jpg" class="single_image" alt="Sedna blog image"/>
-                                </div>
-                            </a>
+                            <div class="blog-img-wrap">
+                                <img src="img/blog-img-03.jpg" class="single_image" alt="Sedna blog image"/>
+                            </div>
                             <figcaption>
-                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="See more posts">Product</a></h2>
-                            <p><a href="#" class="blog-post-title">Sedna tutorial: How to begin your <i class="fa fa-angle-right"></i></a></p>
+                                <p>Sedna tutorial: How to begin your</p>
                             </figcaption>
                         </figure>
                     </article>
                 </div>
-                <a href="#" class="btn btn-ghost btn-accent btn-small">More news</a>
+
             </div>
         </div>
     </section>
+
+    <!-- CONTACT ME -->
+    <section class="features-extra section-padding" id="services">
+        <div class="container">
+            <div class="row text-center">
+                <h2>CONTACT ME</h2>
+                <div class="spacing"></div>
+                <p>This is some text.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <section class="testimonial-slider section-padding text-center">
         <div class="container">
             <div class="row">
@@ -294,6 +315,7 @@
             </div>
         </div>
     </section>
+    <!-- 
     <section class="sign-up section-padding text-center" id="download">
         <div class="container">
             <div class="row">
@@ -312,8 +334,9 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="to-top">
+    </section> -->
+
+    <!-- <section class="to-top">
         <div class="container">
             <div class="row">
                 <div class="to-top-wrap">
@@ -321,31 +344,26 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-12">
                     <div class="footer-links">
                         <ul class="footer-group">
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Sign up</a></li>
-                            <li><a href="http://tympanus.net/codrops/licensing/">Licence</a></li>
-                            <li><a href="http://tympanus.net/codrops/">Codrops</a></li>
-                            <li><a href="http://www.peterfinlan.com/">Peter Finlan</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#services">SERVICES</a></li>
+                            <li><a href="#portfolio">PORTFOLIO</a></li>
+                            <li><a href="#download">BLOG</a></li>
                         </ul>
-                        <p>Copyright © 2015 <a href="#">Sedna</a><br>
-                        <a href="http://tympanus.net/codrops/licensing/">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://www.peterfinlan.com/">Peter Finlan</a>.</p>
                     </div>
-                </div>
-                <div class="social-share">
-                    <p>Share Sedna with your friends</p>
-                    <a href="https://twitter.com/peterfinlan" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
                 </div>
             </div>
         </div>
     </footer>
+
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="bower_components/retina.js/dist/retina.js"></script>
@@ -357,12 +375,12 @@
     <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src='//www.google-analytics.com/analytics.js';
-    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
     </script>
 </body>
 </html>

@@ -1,0 +1,56 @@
+<section class="hero-strip section-padding">
+    <div class="container">
+        <div class="col-md-12 text-center">
+            <h2>PORTFOLIO</h2>
+            <p>Change/swap/edit every aspect of Sedna before you hit development with the included Sketch file.</p>
+            
+            <!-- <section class="blog text-center">
+            <div class="container-fluid">
+            <div class="row"> -->
+        <!-- PORTFOLIO PIECES -->
+            <!-- PIECE 1 -->
+            <div class="col-md-4">
+                <article class="blog-post">
+                    <figure>
+                            <div class="blog-img-wrap">
+                                <img src="img/blog-img-01.jpg" alt="Sedna blog image"/>
+                            </div>
+                        <figcaption>
+                            <p>Getting started with Sedna</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+            <!-- PIECE 2 -->
+            <div class="col-md-4">
+                <article class="blog-post">
+                    <figure>
+                            <div class="blog-img-wrap">
+                                <img src="img/blog-img-01.jpg" alt="Sedna blog image"/>
+                            </div>
+                        <figcaption>
+                            <p>Getting started with Sedna</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+            <!-- PIECE 3 -->
+            <div class="col-md-4">
+                <article class="blog-post">
+                    <figure>
+                            <div class="blog-img-wrap">
+                                <img src="img/blog-img-01.jpg" alt="Sedna blog image"/>
+                            </div>
+                        <figcaption>
+                            <p>Getting started with Sedna</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+            <!-- </section>
+            </div>
+            </div> -->
+
+        </div>
+    </div>
+</section>

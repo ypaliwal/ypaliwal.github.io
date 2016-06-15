@@ -72,6 +72,35 @@
 	}
 }
 
+#portfolio {
+	p {
+		font-size: 18px;
+		padding-bottom: 0px;
+	}
+
+	.spacing-less {
+		height: 10px;
+	}
+
+	.intro-icon {
+		font-size: 40px;
+		color: #FF5274;
+	}
+
+	.icon-size {
+		width: 44px;
+	}
+
+	.intro-icon {
+		display: inline;
+		/*padding-bottom: 20px;*/
+		img {
+			margin-bottom: 20px;	
+		}
+		
+	}
+}
+
 hr.style-two {
 	width: 40%;
     border: 0;
@@ -91,6 +120,8 @@ hr.style-two {
 .blog-post {
 	max-width: 100%;
 }
+
+
 
 .h1-std {
 	font-size: 40px;

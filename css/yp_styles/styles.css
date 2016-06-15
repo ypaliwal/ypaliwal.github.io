@@ -42,6 +42,22 @@
   #services .intro-icon img {
     margin-bottom: 20px; }
 
+#portfolio p {
+  font-size: 18px;
+  padding-bottom: 0px; }
+#portfolio .spacing-less {
+  height: 10px; }
+#portfolio .intro-icon {
+  font-size: 40px;
+  color: #FF5274; }
+#portfolio .icon-size {
+  width: 44px; }
+#portfolio .intro-icon {
+  display: inline;
+  /*padding-bottom: 20px;*/ }
+  #portfolio .intro-icon img {
+    margin-bottom: 20px; }
+
 hr.style-two {
   width: 40%;
   border: 0;

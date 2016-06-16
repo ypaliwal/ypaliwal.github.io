@@ -63,7 +63,9 @@
 	}
 
 	.intro-icon {
-		display: inline;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		/*padding-bottom: 20px;*/
 		img {
 			margin-bottom: 20px;	
@@ -130,5 +132,22 @@ hr.style-two {
 
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.testimonial-slider {
+	background: url("../../img/ypal/blog_back.png") no-repeat center center;
+	background-size: cover;
+	
+	.author {
+		color: white;
+	}
+
+	p {
+		color: white;
+	}
+
+	.testimonial_title {
+		font-style: normal;
+	}
 }
 
